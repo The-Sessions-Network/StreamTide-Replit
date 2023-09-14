@@ -8,10 +8,10 @@
     "deps": "yarn install --ignore-engines"
   },
   "dependencies": {
-    "@apollo/server": "4.3.0",
+    "@apollo/server": "^4.9.3",
     "@metamask/eth-sig-util": "5.0.2",
-    "@sentry/node": "4.6.6",
-    "apollo-fetch": "0.7.0",
+    "@sentry/node": "^7.68.0",
+    "apollo-fetch": "^0.6.0",
     "axios": "0.27.2",
     "better-sqlite3": "7.6.2",
     "bignumber.js": "9.1.1",
@@ -27,14 +27,14 @@
     "jquery": "3.6.1",
     "jsonwebtoken": "9.0.0",
     "jwt-decode": "3.1.2",
-    "react-infinite-scroller": "1.2.6",
-    "react-masonry-component": "6.3.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "react-infinite": "0.13.0",
+    "react-infinite": "^0.12.1",
+    "react-infinite-scroller": "1.2.6",
+    "react-masonry-component": "6.3.0",
     "react-select": "5.7.4",
     "twitter-api-sdk": "1.2.1",
-    "web3": "1.7.3",
+    "web3": "^1.7.0",
     "xregexp": "5.1.1"
   },
   "resolutions": {
@@ -42,21 +42,21 @@
     "**/graphql": "^16.6.0"
   },
   "devDependencies": {
-    "@openzeppelin/contracts": "4.8.2",
-    "@openzeppelin/contracts-upgradeable": "4.8.2",
-    "@truffle/hdwallet-provider": "2.1.9",
-    "bootstrap": "4.2.1",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "bootstrap": "^4.6.2",
     "breakpoint-sass": "2.7.1",
-    "karma": "6.3.0",
+    "dotenv": "16.0.3",
+    "jsedn": "0.4.1",
+    "karma": "^6.4.2",
     "karma-chrome-launcher": "2.2.0",
     "karma-cli": "2.0.0",
     "karma-cljs-test": "0.1.0",
-    "sass": "1.63.6",
-    "dotenv": "16.0.3",
-    "jsedn": "0.4.1",
     "normalize.css": "8.0.1",
+    "sass": "^1.63.6",
     "shadow-cljs": "2.19.8",
-    "truffle": "5.8.1"
+    "truffle": "^5.11.4"
   },
   "engines": {
     "node": "^18.0.0"

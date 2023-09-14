@@ -1,0 +1,26 @@
+1. npm install sass  --- AND ---  npm install -g shadow-cljs
+2. Install Clojure
+3. Yarn install
+4. 
+5. cd resources/public/css
+6. npx sass --no-source-map -s compressed 
+7. cd StreamTide/resources/scss
+8. resources/public/css/main.scss:resources/public/css/main.css
+resources/scss/vars.scss
+npx sass --no-source-map -s compressed main.scss:main.css
+9. npx shadow-cljs compile shadow-cljs.edn
+
+
+bbtasks - View all commands
+need to type export anytime you close terminal
+
+To Run:
+export STREAMTIDE_ENV=qa
+rm -rf .shadow-cljs
+bb watch-ui
+bb watch-css
+
+
+---
+🚨🚨 LEft off here 🚨🚨
+src/streamtide/ui/my_settings/page.cljs

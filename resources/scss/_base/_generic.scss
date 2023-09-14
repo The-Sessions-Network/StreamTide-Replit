@@ -47,7 +47,7 @@ a {
 .container {
 	max-width: 1240px;
 	@include media-breakpoint-up(sm) {
-		padding: 0 20px;
+		padding: 0 25px;
 	}
 }
 

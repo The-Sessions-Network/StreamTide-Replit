@@ -1,0 +1,15 @@
+run = "export STREAMTIDE_ENV=qa; rm -rf .shadow-cljs; bb watch-ui; bb watch-css;"
+
+hidden = [".clj-kondo", ".lsp", ".config"]
+
+[nix]
+channel = "stable-22_11"
+
+[languages.clojure]
+pattern = "**/*.clj"
+
+[languages.clojure.languageServer]
+start = ["clojure-lsp"]
+
+[deployment]
+run = ["sh", "-c", "export STREAMTIDE_ENV=qa rm -rf .shadow-cljs bb watch-ui bb watch-css"]

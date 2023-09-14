@@ -20,7 +20,6 @@
     [streamtide.ui.my-content.subs :as mc-subs]
     [streamtide.ui.utils :refer [switch-popup check-session build-grant-status-query]]))
 
-
 (def page-size 6)
 
 (defn build-user-content-query [{:keys [:user/address]} after]
@@ -213,6 +212,6 @@
                  "ADD CONTENT"]
                 [contents]]
                [:div.grantPending
-                [:p "To upload content you first need to get a Grant."]
-                [:p [nav-anchor {:route :route.my-settings/index} "Update your Profile and Apply for a Grant to start sharing your content"]]])]])]
+                [:p "To upload content you first need to apply for access to patronage tools."]
+                [:p [nav-anchor {:route :route.my-settings/index} "Update your Profile and Apply for a patronage tools to start sharing your content"]]])]])]
          [popup-add-content add-content-popup-open? show-add-content-popup-fn]]))))

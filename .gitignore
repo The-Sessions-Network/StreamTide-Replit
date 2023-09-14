@@ -12,3 +12,5 @@
 /.cpcache/
 /.shadow-cljs/
 /server/
+/.replit/
+/replit.nix/
