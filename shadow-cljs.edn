@@ -1,6 +1,7 @@
 {:dev-http {4598 "resources/public/"}
 
  :deps {:aliases [:dev]}
+ :preloads [day8.re-frame-10x.preload]
 
  :nrepl {:middleware [cider.piggieback/wrap-cljs-repl
                       refactor-nrepl.middleware/wrap-refactor]
